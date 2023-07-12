@@ -105,7 +105,6 @@
   html {
   scroll-behavior: smooth;
   font-size: 62.5%;
-  display: flex;
   }
   
   body {
@@ -180,7 +179,8 @@
   
   /* Grid
       ============================= */
-  [class*='row-']{
+
+  .row{
     display: flex;
   }
 
